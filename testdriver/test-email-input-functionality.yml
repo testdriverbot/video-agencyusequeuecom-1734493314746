@@ -1,0 +1,28 @@
+version: 4.1.30
+steps:
+  - prompt: Focus the browser window.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: Click on the email input field.
+    commands:
+      - command: hover-text
+        text: Email
+        description: email input field
+        action: click
+  - prompt: Type a valid email address.
+    commands:
+      - command: type
+        text: test@example.com
+  - prompt: Click the "Continue" button.
+    commands:
+      - command: hover-text
+        text: Continue
+        description: continue button below the email input field
+        action: click
+  - prompt: >-
+      Assert a confirmation message or next step appears.  # Use the content of
+      the file from the environment
+    commands:
+      - command: assert
+        expect: You’re one step away from something big
