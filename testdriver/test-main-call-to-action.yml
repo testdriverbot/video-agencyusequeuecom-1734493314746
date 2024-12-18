@@ -1,0 +1,24 @@
+version: 4.1.30
+steps:
+  - prompt: Focus the browser window.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: Locate the main call to action button on the page.
+    commands:
+      - command: hover-text
+        text: Continue
+        description: main call to action button on the form
+        action: hover
+  - prompt: Click the call to action button.
+    commands:
+      - command: hover-text
+        text: Continue
+        description: main call to action button on the form
+        action: click
+  - prompt: >-
+      Assert that the action leads to the expected result  # Use the content of
+      the file from the environment
+    commands:
+      - command: assert
+        expect: confirmation message is displayed
