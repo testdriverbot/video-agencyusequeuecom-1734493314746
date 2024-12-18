@@ -1,0 +1,81 @@
+version: 4.1.30
+steps:
+  - prompt: Focus the browser window.
+    commands: []
+  - prompt: Use tab key to navigate through all interactive elements.
+    commands:
+      - command: press-keys
+        keys:
+          - tab
+      - command: press-keys
+        keys:
+          - tab
+      - command: press-keys
+        keys:
+          - tab
+  - prompt: Use tab key to navigate through all interactive elements.
+    commands:
+      - command: press-keys
+        keys:
+          - tab
+      - command: press-keys
+        keys:
+          - tab
+      - command: press-keys
+        keys:
+          - tab
+  - prompt: Use tab key to navigate through all interactive elements.
+    commands:
+      - command: press-keys
+        keys:
+          - tab
+      - command: press-keys
+        keys:
+          - tab
+      - command: press-keys
+        keys:
+          - tab
+  - prompt: Use tab key to navigate through all interactive elements.
+    commands:
+      - command: press-keys
+        keys:
+          - tab
+      - command: press-keys
+        keys:
+          - tab
+      - command: press-keys
+        keys:
+          - tab
+  - prompt: Use tab key to navigate through all interactive elements.
+    commands:
+      - command: press-keys
+        keys:
+          - tab
+      - command: press-keys
+        keys:
+          - tab
+      - command: press-keys
+        keys:
+          - tab
+  - prompt: Use tab key to navigate through all interactive elements.
+    commands:
+      - command: press-keys
+        keys:
+          - tab
+      - command: press-keys
+        keys:
+          - tab
+      - command: press-keys
+        keys:
+          - tab
+  - prompt: Use tab key to navigate through all interactive elements.
+    commands:
+      - command: press-keys
+        keys:
+          - tab
+      - command: press-keys
+        keys:
+          - tab
+      - command: press-keys
+        keys:
+          - tab
